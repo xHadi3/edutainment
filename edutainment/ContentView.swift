@@ -1,3 +1,11 @@
+//
+//  ContentView.swift
+//  edutainment
+//
+//  Created by Hadi Al zayer on 02/07/1446 AH.
+//
+
+
 import SwiftUI
 
 struct ContentView: View {
@@ -39,8 +47,7 @@ struct ContentView: View {
         
         .padding()
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-        
-        .background(Gradient(colors: [.red, .orange]))  // Background for VStack container
+        .background(Gradient(colors: [.red, .orange]))  
         .ignoresSafeArea()
         .alert(isPresented: $showAlert) {
             Alert(
